@@ -3,7 +3,7 @@
 ### __Project 4: Chinna Maijala, Kimberly Her, Yara El-Emam, and Zane Huttinga__
 
 ## Description
-We analyzed the Apartments for Rent dataset, sourced from the USA classifieds on the UCI Machine Learning Repository. Our objective is to leverage machine learning techniques, including Linear Regression, Neural Networks, and Random Forest, to evaluate model performance and build predictive models that can be applied for future rental price predictions.
+We analyzed the Apartments for Rent dataset, sourced from the USA classifieds on the UCI Machine Learning Repository. Our objective is to leverage machine learning techniques, including Linear Regression, Neural Networks, and Random Forest, to evaluate model performance and build predictive models that can be applied for future rental price predictions. The project also utilized Apache Spark for initial data handling and exploration, efficiently loading and processing the raw dataset before transitioning to Pandas for in-depth analysis and machine learning workflows.
 
 ## Link to Data Set from UCI Machine Learning Repository 
 https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
@@ -51,6 +51,13 @@ These efforts highlight the critical role of preprocessing, enrichment, and opti
 
 ## Installation
 To run the code in Google Colab, start by creating or opening a notebook on the platform. Install any required libraries using `pip install` or `apt-get install`. For **Notebook 1** (`apartments_prediction`), upload the main CSV file manually: `apartments_for_rent_classified_100K.csv`. For **Notebook 2** (`apartments_data_enrichment_optimization`), upload the cleaned dataset: `apartments_data_cleaned.csv`. Verify installations by importing the necessary libraries and then execute the code. Save your work to Google Drive or download it locally for future use, as Colab sessions reset when closed.
+
+## Technologies
+- **Apache Spark**: For initial data handling and exploration.
+- **Pandas**: For in-depth data manipulation and analysis.
+- **NumPy**: For numerical computations.
+- **Scikit-learn**: For machine learning models and evaluation.
+- **Matplotlib**: For visualizations.
 
 ## Roadmap
 Although the project is complete, there is always room for improvement. In the future, we may explore optimizing existing features, refining performance, and implementing additional models to enhance the project’s capabilities. While there is no immediate timeline for these updates, we are open to evolving the project and welcome any contributions or suggestions for future enhancements.
