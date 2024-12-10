@@ -5,6 +5,9 @@
 ## Description
 We analyzed the Apartments for Rent dataset, sourced from the USA classifieds on the UCI Machine Learning Repository. Our objective is to leverage machine learning techniques, including Linear Regression, Neural Networks, and Random Forest, to evaluate model performance and build predictive models that can be applied for future rental price predictions.
 
+## Link to Data Set from UCI Machine Learning Repository 
+https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
+
 ## Folders
 - Resources: Includes the original data set, "apartments_for_rent_classified_100K.7z"
 - CSV files: Includes the cleaned version of the data set, "apartments_data_cleaned.csv" and the model results that were exported from the code. 
