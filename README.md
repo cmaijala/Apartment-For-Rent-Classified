@@ -59,6 +59,35 @@ To run the code in Google Colab, start by creating or opening a notebook on the 
 - **Scikit-learn**: For machine learning models and evaluation.
 - **Matplotlib**: For visualizations.
 
+## Supplementary Analysis
+As part of our exploration, we evaluated additional models to understand their predictive performance. While these models are not incorporated into the main presentation, their results provide valuable insights into alternative machine learning approaches.
+
+### **1. LightGBM**
+- **Overview**:
+  - LightGBM is an efficient gradient boosting algorithm designed for speed and accuracy, especially with large datasets.
+  - It uses histogram-based learning, enabling fast training with sparse features.
+
+- **Results**:
+  - **Mean Squared Error (MSE)**: 170,490.74
+  - **R-squared**: 0.7439 (74.39%)
+
+### **2. CatBoost**
+- **Overview**:
+  - CatBoost excels with categorical features and requires minimal preprocessing, making it highly efficient for real-world datasets.
+  - It automatically handles categorical data without extensive feature engineering.
+
+- **Results**:
+  - **Mean Squared Error (MSE)**: 191,902.68
+  - **R-squared**: 0.7118 (71.18%)
+
+### **Insights from Exploration**
+- While **LightGBM** achieved better results (R-squared: 74.39%) compared to **CatBoost** (R-squared: 71.18%), both underperformed relative to the **Random Forest** model, which remains the best-performing approach.
+- These exploratory results highlight the robustness of Random Forest and its ability to handle nonlinear relationships effectively.
+- The additional exploration underscores the importance of experimenting with multiple models to validate performance.
+
+### Note:
+The results from LightGBM and CatBoost are supplementary and were not included in the presentation due to time constraints.
+
 ## Roadmap
 Although the project is complete, there is always room for improvement. In the future, we may explore optimizing existing features, refining performance, and implementing additional models to enhance the project’s capabilities. While there is no immediate timeline for these updates, we are open to evolving the project and welcome any contributions or suggestions for future enhancements.
 
