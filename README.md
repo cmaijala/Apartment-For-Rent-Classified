@@ -5,15 +5,44 @@
 ## Description
 We analyzed the Apartments for Rent dataset, sourced from the USA classifieds on the UCI Machine Learning Repository. Our objective is to leverage machine learning techniques, including Linear Regression, Neural Networks, and Random Forest, to evaluate model performance and build predictive models that can be applied for future rental price predictions.
 
+## Folders
+- CSV files: Includes the main "apartments_data_cleaned.csv" file and model results that were exported from the code. 
+- Visuals: Contains model result graphs/visualizations.
+
 ## Visuals
 ### Neural Network Results
 ![Neural Network R-Squared Comparison Chart](Visuals/NeuralNetworkComparison.png)
 
+__Enhanced Neural Network:__
+Achieved an R-squared of 0.6444.
+Featured regularization techniques such as dropout and batch normalization.
+Fell short of the required threshold of 0.80.
+
+__Optimized Neural Network:__
+Achieved an R-squared of 0.6117.
+Additional regularization and learning rate adjustments were applied.
+Despite optimization, it showed slightly lower performance compared to the Enhanced Neural Network.
+
 ### Random Forest Results
 ![Random Forest R-Squared Comparison Chart](Visuals/RandomForestComparison.png)
 
+__Performance Improvements:__
+The Initial Random Forest Run demonstrated R-squared: 80.49%, showcasing excellent performance with minimal tuning.
+
+Fine-tuning through manual hyperparameter optimization slightly improved the performance to R-squared: 80.53%, confirming the model's robustness on enriched data.
+Random Forest's ability to handle nonlinear relationships and feature interactions contributed significantly to its success.
+
 ### Model R-Squared Comparison: Neural Networks vs Random Forest
 ![Neural Networks vs Random Forest Comparison Chart](Visuals/ModelRSquaredComparison.png)
+
+__Key Factors in Achieving High Performance:__
+
+- Data Enrichment: Adding detailed features (e.g., amenities and geographical data) allowed the models to leverage more meaningful patterns.
+Feature Engineering: One-hot encoding and other transformations enhanced the dataset's utility for machine learning models.
+- Hyperparameter Tuning: Both manual and automated fine-tuning approaches demonstrated how small adjustments could optimize model performance.
+
+### Conclusion: 
+These efforts highlight the critical role of preprocessing, enrichment, and optimization in achieving strong predictive accuracy and high R-squared scores. Each model's performance reflects the interplay between data quality, model selection, and parameter fine-tuning.
 
 ## Installation
 To run code in Google Colab, start by creating or opening a notebook on the platform. Install any required libraries using __`pip install`__ or __`apt-get install`__. Upload the main csv file manually, "apartments_for_rent_classified_100K.csv". Verify installations by importing libraries and then execute your code. Save your work to Google Drive or download it locally for future use, as Colab sessions reset when closed.
