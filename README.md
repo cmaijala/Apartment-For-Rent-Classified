@@ -30,10 +30,11 @@ Despite optimization, it showed slightly lower performance compared to the Enhan
 ### Random Forest Results
 ![Random Forest R-Squared Comparison Chart](Visuals/RandomForestComparison.png)
 
-__Performance Improvements:__
+__Initial Random Forest:__
 The Initial Random Forest Run demonstrated R-squared: 80.49%, showcasing excellent performance with minimal tuning.
 
-Fine-tuning through manual hyperparameter optimization slightly improved the performance to R-squared: 80.53%, confirming the model's robustness on enriched data.
+__Fine-tuning Random Forest:__
+Fine-tunig through manual hyperparameter optimization slightly improved the performance to R-squared: 80.53%, confirming the model's robustness on enriched data.
 Random Forest's ability to handle nonlinear relationships and feature interactions contributed significantly to its success.
 
 ### Model R-Squared Comparison: Neural Networks vs Random Forest
