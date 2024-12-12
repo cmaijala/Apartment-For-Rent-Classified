@@ -85,8 +85,8 @@ As part of our exploration, we evaluated additional models to understand their p
 - These exploratory results highlight the robustness of Random Forest and its ability to handle nonlinear relationships effectively.
 - The additional exploration underscores the importance of experimenting with multiple models to validate performance.
 
-### Note:
-The results from LightGBM and CatBoost are supplementary and were not included in the presentation due to time constraints.
+**Note**
+Because the Random Forest achieved our desired predictive power, we did not include the results from LightGBM and CatBoost in our analysis. They are, however, possible avenues for future work.
 
 ## Roadmap
 Although the project is complete, there is always room for improvement. In the future, we may explore optimizing existing features, refining performance, and implementing additional models to enhance the project’s capabilities. While there is no immediate timeline for these updates, we are open to evolving the project and welcome any contributions or suggestions for future enhancements.
