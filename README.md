@@ -1,4 +1,4 @@
-# __Predicting Apartment Rental Trends: A Machine Learning Approach__
+# __Building Machine Learning Models for Apartment Rental Price Prediction__
 
 ### __Project 4: Chinna Maijala, Kimberly Her, Yara El-Emam, and Zane Huttinga__
 
@@ -8,10 +8,13 @@ We analyzed the Apartments for Rent dataset, sourced from the USA classifieds on
 ## Link to Data Set from UCI Machine Learning Repository 
 https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified 
 
-## Folders
-- Resources: Includes the original data set, "apartments_for_rent_classified_100K.7z"
-- CSV files: Includes the cleaned version of the data set, "apartments_data_cleaned.csv" and the model results that were exported from the code. 
+## Folders/Files
+- CSV Output Files: Includes the cleaned version of the data set, "apartments_data_cleaned.csv" and the model results that were exported from the code.
+- Google Colab: Includes Google Colab notebook file. 
+- Resources: Includes the original data set, "apartments_for_rent_classified_100K.7z" that was downloaded directly from the UCI Machine Learning Repository. 
 - Visuals: Contains model result graphs/visualizations.
+- "Building Machine Learning Models for Apartment Rental Price Prediction" Presentation
+- ReadMe
 
 ## Visuals
 ### Neural Network Results
@@ -34,7 +37,7 @@ __Initial Random Forest:__
 The Initial Random Forest Run demonstrated R-squared: 80.49%, showcasing excellent performance with minimal tuning.
 
 __Fine-tuning Random Forest:__
-Fine-tunig through manual hyperparameter optimization slightly improved the performance to R-squared: 80.53%, confirming the model's robustness on enriched data.
+Fine-tuning through manual hyperparameter optimization slightly improved the performance to R-squared: 80.53%, confirming the model's robustness on enriched data.
 Random Forest's ability to handle nonlinear relationships and feature interactions contributed significantly to its success.
 
 ### Model R-Squared Comparison: Neural Networks vs Random Forest
@@ -109,6 +112,6 @@ A big thank you to everyone involved for your dedication, hard work, and experti
 Though this marks the official completion, we remain open to future enhancements and improvements. We're excited to see the impact of this project and look forward to what lies ahead.
 
 ## Footnotes
-References and resources: UofM Virtual Data Bootcamp course and we used ChatGPT for assistance when our codes weren't running properly.  
+References and resources: UofM Virtual Data Bootcamp course and we used ChatGPT for assistance when our codes weren't running properly.
 
 ## __Thank you for visiting our project!__
