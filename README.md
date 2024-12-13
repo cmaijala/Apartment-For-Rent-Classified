@@ -1,5 +1,7 @@
 # __Building Machine Learning Models for Apartment Rental Price Prediction__
 
+![image](https://github.com/user-attachments/assets/626aa8c5-673f-42fa-a8ff-9c1dcdf4f467)
+
 ### __Project 4: Chinna Maijala, Kimberly Her, Yara El-Emam, and Zane Huttinga__
 
 ## Description
