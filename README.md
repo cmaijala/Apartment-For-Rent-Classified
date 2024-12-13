@@ -51,8 +51,8 @@ __Key Factors in Achieving High Performance:__
 Feature Engineering: One-hot encoding and other transformations enhanced the dataset's utility for machine learning models.
 - Hyperparameter Tuning: Both manual and automated fine-tuning approaches demonstrated how small adjustments could optimize model performance.
 
-### Conclusion: 
-These efforts highlight the critical role of preprocessing, enrichment, and optimization in achieving strong predictive accuracy and high R-squared scores. Each model's performance reflects the interplay between data quality, model selection, and parameter fine-tuning.
+### Conclusion
+In conclusion, our results emphasize the importance of data enrichment and optimization in enhancing machine learning performance. By filling missing geographic information, encoding amenities, and ensuring data consistency, we enhanced the dataset to generate meaningful insights for predicting apartment rental prices. As a result, our fine-tuned Random Forest model achieved an R-squared of over 80%, highlighting its strong predictive accuracy.
 
 ## Installation
 To run the code in Google Colab, start by creating or opening a notebook on the platform. Install any required libraries using `pip install` or `apt-get install`. For **Notebook 1** (`apartments_prediction`), upload the main CSV file manually: `apartments_for_rent_classified_100K.csv`. For **Notebook 2** (`apartments_data_enrichment_optimization`), upload the cleaned dataset: `apartments_data_cleaned.csv`. Verify installations by importing the necessary libraries and then execute the code. Save your work to Google Drive or download it locally for future use, as Colab sessions reset when closed.
@@ -116,4 +116,4 @@ Though this marks the official completion, we remain open to future enhancements
 ## Footnotes
 References and resources: UofM Virtual Data Bootcamp course and we used ChatGPT for assistance when our codes weren't running properly.
 
-## __Thank you for visiting our project!__
+# __Thank you for visiting our project!__
