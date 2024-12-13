@@ -15,7 +15,7 @@ https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified
 - Google Colab: Includes Google Colab notebook file. 
 - Resources: Includes the original data set, "apartments_for_rent_classified_100K.7z" that was downloaded directly from the UCI Machine Learning Repository. 
 - Visuals: Contains model result graphs/visualizations.
-- "Building Machine Learning Models for Apartment Rental Price Prediction" Presentation
+- "Building Machine Learning Models for Apartment Rental Price Prediction" Presentation (please download to view). 
 - ReadMe
 
 ## Visuals
